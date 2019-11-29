@@ -12,6 +12,7 @@ public class ShoppingCart {
     //存放商品
     private List<Order> orderList = new ArrayList<>();
 
+
     /**
      * 加入购物车
      *
@@ -20,6 +21,7 @@ public class ShoppingCart {
     public void put(Order order) {
         orderList.add(order);
     }
+
 
     /**
      *

@@ -70,7 +70,11 @@ public class Main {
         //结款
         System.out.println("结款:" + totalMoney);
 
+
+
         //System.out.println("颜色-->" + Color.RED.toString());
 
     }
+
+
 }
