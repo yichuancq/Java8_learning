@@ -14,7 +14,7 @@ public class Main {
 
         ShoppingCart shoppingCart = new ShoppingCart();
         Apple apple = new Apple("G1001", "苹果", 11.2);
-        apple.isIsEatable(true);
+        apple.isEatable(true);
         //
         //生成订单信息
         Order order1 = new Order(apple, 2);
@@ -50,7 +50,7 @@ public class Main {
          * Battery
          */
         Battery battery = new Battery("G1006", "电池", 6.5, 1.5);
-        battery.isIsEatable(false);
+        battery.isEatable(false);
         Order order6 = new Order(battery, 1);
         System.out.println(order6.showOrder());
         System.out.println("本商品是否可以食用:" + battery.isEatable());

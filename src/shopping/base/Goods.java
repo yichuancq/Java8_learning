@@ -84,8 +84,8 @@ public class Goods implements IEatable {
      * @return
      */
     @Override
-    public boolean isIsEatable(boolean isEatable) {
+    public boolean isEatable(boolean isEatable) {
         this.eatable = isEatable;
-        return eatable;
+        return this.eatable;
     }
 }

@@ -6,6 +6,6 @@ package shopping.base;
 public interface IEatable {
 
     //是否可以食用
-    boolean isIsEatable(boolean isEatable);
+    boolean isEatable(boolean isEatable);
 
 }
