@@ -1,4 +1,4 @@
-package chapter1.oop.shopping.eat;
+package chapter1.generic.eat;
 
 import chapter1.oop.shopping.base.Goods;
 import chapter1.oop.shopping.fruit.Fruit;

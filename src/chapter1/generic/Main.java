@@ -1,11 +1,13 @@
-package chapter1.oop.shopping.eat;
+package chapter1.generic;
 
+import chapter1.generic.eat.Eat;
+import chapter1.generic.eat.EatFruit;
 import chapter1.oop.shopping.base.Goods;
 import chapter1.oop.shopping.fruit.Apple;
 import chapter1.oop.shopping.fruit.Banana;
 import chapter1.oop.shopping.fruit.Fruit;
 
-public class EatMain {
+public class Main {
 
     public static void main(String[] args) {
 
