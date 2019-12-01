@@ -7,6 +7,7 @@ import chapter1.oop.shopping.base.Goods;
  */
 public class Order {
 
+    //用户购物商品
     private Goods goods;
     //数量
     private double amount;
