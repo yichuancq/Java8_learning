@@ -1,5 +1,8 @@
-package chapter1.remotecontroller.controller;
+package chapter1.device.controller;
 
+
+import chapter1.device.Device;
+import chapter1.device.interf.ICotroller;
 
 /**
  * 遥控器基类

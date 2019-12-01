@@ -1,9 +1,7 @@
-package chapter1.remotecontroller;
+package chapter1.device;
 
-import chapter1.remotecontroller.controller.Light;
-import chapter1.remotecontroller.controller.LightRemoteControler;
-import chapter1.remotecontroller.controller.TV;
-import chapter1.remotecontroller.controller.TVRemoteController;
+import chapter1.device.controller.LightRemoteControler;
+import chapter1.device.controller.TVRemoteController;
 import org.junit.Test;
 
 public class TestMyController {

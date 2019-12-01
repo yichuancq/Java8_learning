@@ -1,4 +1,6 @@
-package chapter1.remotecontroller.controller;
+package chapter1.device.controller;
+
+import chapter1.device.Device;
 
 public class LightRemoteControler extends BaseController<Device> {
 

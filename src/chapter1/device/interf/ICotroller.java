@@ -1,4 +1,6 @@
-package chapter1.remotecontroller.controller;
+package chapter1.device.interf;
+
+import chapter1.device.Device;
 
 /**
  * 遥控器接口

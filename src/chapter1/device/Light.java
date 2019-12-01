@@ -1,4 +1,6 @@
-package chapter1.remotecontroller.controller;
+package chapter1.device;
+
+import chapter1.device.controller.LightRemoteControler;
 
 public class Light<T extends Device> extends Device<T> {
 

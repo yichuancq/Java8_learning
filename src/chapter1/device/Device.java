@@ -1,4 +1,6 @@
-package chapter1.remotecontroller.controller;
+package chapter1.device;
+
+import chapter1.device.interf.ISwither;
 
 import java.io.Serializable;
 
