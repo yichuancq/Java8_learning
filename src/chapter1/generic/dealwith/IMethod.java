@@ -1,4 +1,4 @@
-package chapter1.generic.eat;
+package chapter1.generic.dealwith;
 
 import chapter1.oop.shopping.fruit.Fruit;
 
@@ -8,8 +8,6 @@ import chapter1.oop.shopping.fruit.Fruit;
  * @param <T>
  */
 public interface IMethod<T extends Fruit> {
-
-    //T fruit();
 
     /**
      * 削水果

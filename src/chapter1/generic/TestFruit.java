@@ -1,6 +1,6 @@
 package chapter1.generic;
 
-import chapter1.generic.eat.DealWithFruit;
+import chapter1.generic.dealwith.DealWithFruit;
 import chapter1.oop.shopping.fruit.Apple;
 import chapter1.oop.shopping.fruit.Banana;
 import chapter1.oop.shopping.fruit.Fruit;
@@ -48,5 +48,8 @@ public class TestFruit {
         ///
         DealWithFruit.fun1(dealWithFruit3);
         DealWithFruit.fun2(dealWithFruit3);
+
+        DealWithFruit.fun3(dealWithFruit3);
+        DealWithFruit.fun3(dealWithFruit2);
     }
 }

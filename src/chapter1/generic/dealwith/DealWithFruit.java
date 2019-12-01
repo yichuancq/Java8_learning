@@ -1,4 +1,4 @@
-package chapter1.generic.eat;
+package chapter1.generic.dealwith;
 
 import chapter1.oop.shopping.fruit.Fruit;
 
@@ -49,19 +49,26 @@ public class DealWithFruit<T extends Fruit> implements IMethod<T> {
     /**
      * 表示只能接受类及其子类的泛型类
      *
-     * @param fruit
+     * @param dealWithFruit
      */
-    public static void fun1(DealWithFruit<? extends Fruit> fruit) {
-        System.out.println("fun1..." + fruit.getFruit().getName());
+    public static void fun1(DealWithFruit<? extends Fruit> dealWithFruit) {
+        System.out.println("fun1..." + dealWithFruit.getFruit().getName());
     }
 
     /**
-     * @param fruit
+     * @param dealWithFruit
      */
-    public static void fun2(DealWithFruit<? super Fruit> fruit) {
-        System.out.println("fun2..." + fruit.getFruit().getName());
+    public static void fun2(DealWithFruit<? super Fruit> dealWithFruit) {
+        System.out.println("fun2..." + dealWithFruit.getFruit().getName());
     }
 
+    /**
+     * @param dealWithFruit
+     * @param <T>
+     */
+    public static <T extends Fruit> void fun3(DealWithFruit<? extends Fruit> dealWithFruit) {
+        System.out.println("fun3..." + dealWithFruit.getFruit().getName());
+    }
 
     public T getFruit() {
         return fruit;
