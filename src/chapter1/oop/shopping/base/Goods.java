@@ -1,9 +1,11 @@
-package shopping.base;
+package chapter1.oop.shopping.base;
+
+import java.io.Serializable;
 
 /**
  * 商品
  */
-public class Goods implements IEatable {
+public class Goods implements Serializable {
     //货号
     private String gnumber;
     //物品名称
@@ -11,7 +13,7 @@ public class Goods implements IEatable {
     //单价
     private double price;
     //是否可以食用
-    private boolean eatable = false;
+//    private boolean eatable = false;
 
     /**
      * 构造函数1
@@ -53,13 +55,13 @@ public class Goods implements IEatable {
         this.price = price;
     }
 
-    public boolean isEatable() {
-        return eatable;
-    }
-
-    public void setEatable(boolean eatable) {
-        this.eatable = eatable;
-    }
+//    public boolean isEatable() {
+//        return eatable;
+//    }
+//
+//    public void setEatable(boolean eatable) {
+//        this.eatable = eatable;
+//    }
 
     public String getGnumber() {
         return gnumber;
@@ -78,14 +80,14 @@ public class Goods implements IEatable {
                 '}';
     }
 
-    /***
-     * 是否可以食用
-     * @param isEatable
-     * @return
-     */
-    @Override
-    public boolean isEatable(boolean isEatable) {
-        this.eatable = isEatable;
-        return this.eatable;
-    }
+//    /***
+//     * 是否可以食用
+//     * @param isEatable
+//     * @return
+//     */
+//    @Override
+//    public boolean isEatable(boolean isEatable) {
+//        this.eatable = isEatable;
+//        return this.eatable;
+//    }
 }

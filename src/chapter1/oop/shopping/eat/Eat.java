@@ -1,4 +1,4 @@
-package shopping.eat;
+package chapter1.oop.shopping.eat;
 
 /**
  * 吃

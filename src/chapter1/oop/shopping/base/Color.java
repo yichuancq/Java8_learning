@@ -1,4 +1,4 @@
-package shopping.base;
+package chapter1.oop.shopping.base;
 
 /**
  * 颜色

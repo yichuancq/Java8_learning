@@ -1,6 +1,6 @@
-package shopping.car;
+package chapter1.oop.shopping.car;
 
-import shopping.base.Goods;
+import chapter1.oop.shopping.base.Goods;
 
 /**
  * 订单

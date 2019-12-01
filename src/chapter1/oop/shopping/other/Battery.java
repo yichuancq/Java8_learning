@@ -1,6 +1,6 @@
-package shopping.other;
+package chapter1.oop.shopping.other;
 
-import shopping.base.Goods;
+import chapter1.oop.shopping.base.Goods;
 
 /**
  * 电池
@@ -44,8 +44,8 @@ public class Battery extends Goods {
                 '}';
     }
 
-    @Override
-    public boolean isEatable(boolean isEatable) {
-        return false;
-    }
+//    @Override
+//    public boolean isEatable(boolean isEatable) {
+//        return false;
+//    }
 }

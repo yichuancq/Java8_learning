@@ -1,6 +1,6 @@
-package shopping.fruit;
+package chapter1.oop.shopping.fruit;
 
-import shopping.base.Color;
+import chapter1.oop.shopping.base.Color;
 
 /**
  * 橘子

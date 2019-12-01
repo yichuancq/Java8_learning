@@ -1,6 +1,6 @@
-package shopping.meat;
+package chapter1.oop.shopping.meat;
 
-import shopping.base.Food;
+import chapter1.oop.shopping.base.Food;
 
 public class Meat extends Food {
     public Meat(String gnumber, String name, double price) {

@@ -1,4 +1,4 @@
-package shopping.car;
+package chapter1.oop.shopping.car;
 
 import java.util.ArrayList;
 import java.util.List;

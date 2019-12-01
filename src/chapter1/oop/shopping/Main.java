@@ -1,11 +1,11 @@
-package shopping;
+package chapter1.oop.shopping;
 
-import shopping.car.Order;
-import shopping.car.ShoppingCart;
-import shopping.fruit.Apple;
-import shopping.fruit.Banana;
-import shopping.fruit.Orange;
-import shopping.other.Battery;
+import chapter1.oop.shopping.car.Order;
+import chapter1.oop.shopping.car.ShoppingCart;
+import chapter1.oop.shopping.fruit.Apple;
+import chapter1.oop.shopping.fruit.Banana;
+import chapter1.oop.shopping.fruit.Orange;
+import chapter1.oop.shopping.other.Battery;
 
 public class Main {
 
@@ -14,12 +14,12 @@ public class Main {
 
         ShoppingCart shoppingCart = new ShoppingCart();
         Apple apple = new Apple("G1001", "苹果", 11.2);
-        apple.isEatable(true);
+//        apple.isEatable(true);
         //
         //生成订单信息
         Order order1 = new Order(apple, 2);
         System.out.println(order1.showOrder());
-        System.out.println("本商品是否可以食用:" + apple.isEatable());
+//        System.out.println("本商品是否可以食用:" + apple.isEatable());
         System.out.println("小记:" + order1.pay());
         /**
          *
@@ -50,10 +50,10 @@ public class Main {
          * Battery
          */
         Battery battery = new Battery("G1006", "电池", 6.5, 1.5);
-        battery.isEatable(false);
+//        battery.isEatable(false);
         Order order6 = new Order(battery, 1);
         System.out.println(order6.showOrder());
-        System.out.println("本商品是否可以食用:" + battery.isEatable());
+//        System.out.println("本商品是否可以食用:" + battery.isEatable());
         System.out.println("小记:" + order6.pay());
 
         //加入购物车
@@ -69,7 +69,6 @@ public class Main {
         double totalMoney = shoppingCart.payMoney();
         //结款
         System.out.println("结款:" + totalMoney);
-
 
 
         //System.out.println("颜色-->" + Color.RED.toString());

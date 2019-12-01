@@ -1,9 +1,9 @@
-package shopping.eat;
+package chapter1.oop.shopping.eat;
 
-import shopping.base.Goods;
-import shopping.fruit.Apple;
-import shopping.fruit.Banana;
-import shopping.fruit.Fruit;
+import chapter1.oop.shopping.base.Goods;
+import chapter1.oop.shopping.fruit.Apple;
+import chapter1.oop.shopping.fruit.Banana;
+import chapter1.oop.shopping.fruit.Fruit;
 
 public class EatMain {
 
@@ -48,7 +48,7 @@ public class EatMain {
         System.out.println(eatFruit.getSomething());
         //ok
         eatFruit.setSomething(fruit);
-        //Error:(48, 31) java: 不兼容的类型: shopping.base.Goods无法转换为shopping.fruit.Fruit
+        //Error:(48, 31) java: 不兼容的类型: chapter1.oop.shopping.base.Goods无法转换为shopping.fruit.Fruit
 //        eatFruit.setSomething(goods);
         System.out.println(eatFruit.getSomething());
         //

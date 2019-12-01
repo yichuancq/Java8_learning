@@ -1,4 +1,4 @@
-package shopping.vegetable;
+package chapter1.oop.shopping.vegetable;
 
 /**
  * 西红柿
