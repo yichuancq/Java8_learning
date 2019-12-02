@@ -6,9 +6,9 @@ import chapter1.ledlight.base.LightColorEnum;
 
 public abstract class AbstractAdjusterImpl<T extends BaseDevice> implements IAdjuster<T> {
     //控制类型
-    private static ControlTypeEnum controlTypeEnum;
+    private ControlTypeEnum controlTypeEnum;
     // 颜色
-    private static LightColorEnum lightColorEnum;
+    private LightColorEnum lightColorEnum;
     //max档位
     private Integer maxDegree = 4;
     //min档位

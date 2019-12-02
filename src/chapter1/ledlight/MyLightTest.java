@@ -31,7 +31,6 @@ public class MyLightTest {
         lightAdjuster.changeDegree(myLight, 1);
         //加大档位
         lightAdjuster.changeDegree(myLight, 1);
-
         //减小档位
         lightAdjuster.changeDegree(myLight, -1);
 
@@ -39,7 +38,7 @@ public class MyLightTest {
         lightAdjuster.changeDegree(myLight, -1);
         lightAdjuster.changeDegree(myLight, -1);
         /**小米人体感应喂奶小夜灯***/
-        MyLight myLight2 = new MyLight("HLT0238", "XiaoMi", "小米人体感应喂奶小夜灯", false);
+        MyLight myLight2 = new MyLight("HLT0238", "XiaoMi", "小米触摸喂奶小夜灯", false);
 
         lightAdjuster = new LightAdjusterImpl(myLight2, ControlTypeEnum.TOUCH, LightColorEnum.GREEN);
         //加大档位

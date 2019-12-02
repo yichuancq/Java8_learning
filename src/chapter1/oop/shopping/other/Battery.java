@@ -44,8 +44,4 @@ public class Battery extends Goods {
                 '}';
     }
 
-//    @Override
-//    public boolean isEatable(boolean isEatable) {
-//        return false;
-//    }
 }
