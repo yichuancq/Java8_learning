@@ -1,5 +1,6 @@
 package chapter1.ledlight;
 
+import chapter1.ledlight.base.BaseDevice;
 import chapter1.ledlight.base.ControlTypeEnum;
 import chapter1.ledlight.base.LightColorEnum;
 import chapter1.ledlight.control.LightAdjusterImpl;

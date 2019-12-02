@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * 设备
  */
-public class BaseDevice<T extends BaseDevice> implements Serializable, ISwither {
+public class BaseDevice<T> implements Serializable, ISwither {
 
     public BaseDevice(String id, String brand, String name, boolean workingFlag) {
         this.id = id;
