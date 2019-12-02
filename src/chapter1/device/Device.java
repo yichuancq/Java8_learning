@@ -9,10 +9,12 @@ import java.io.Serializable;
  */
 public class Device<T> implements Serializable, ISwither {
 
+
     public Device(String name, boolean workingFlag) {
         this.name = name;
         this.workingFlag = workingFlag;
     }
+
     /**
      * 自定义开关
      *

@@ -1,6 +1,7 @@
 package chapter1.device;
 
 import chapter1.device.controller.TVRemoteController;
+import chapter1.device.controller.TVRemoteController2;
 
 /**
  * 电视机设备
@@ -11,6 +12,15 @@ public class TV<T extends Device> extends Device<T> {
 
     //电视机的遥控器
     private TVRemoteController tvRemoteController;
+    private TVRemoteController2 tvRemoteController2;
+
+    public TVRemoteController2 getTvRemoteController2() {
+        return tvRemoteController2;
+    }
+
+    public void setTvRemoteController2(TVRemoteController2 tvRemoteController2) {
+        this.tvRemoteController2 = tvRemoteController2;
+    }
 
     //
     public TV(String name, boolean workingFlag) {
@@ -24,4 +34,13 @@ public class TV<T extends Device> extends Device<T> {
     public void setTvRemoteController(TVRemoteController tvRemoteController) {
         this.tvRemoteController = tvRemoteController;
     }
+
+    public static void fun1(TV<? extends Device> tv) {
+        System.out.println(tv.getName());
+    }
+
+    public static void fun2(TV<? super Device> tv) {
+        System.out.println(tv.getName());
+    }
+
 }
