@@ -15,9 +15,10 @@ public class MyLightTest {
 
         LightAdjusterImpl lightAdjuster = new LightAdjusterImpl(myLight, ControlTypeEnum.SENSITIVE, LightColorEnum.WHITE);
         // switcher
-        boolean flag = myLight.sw(myLight);
-        System.out.println("" + flag);
-
+        if (!myLight.isWorkingFlag()) {
+            boolean flag = myLight.sw(myLight);
+            System.out.println("" + flag);
+        }
         //加大档位
         lightAdjuster.changeDegree(myLight, 1);
         //加大档位
