@@ -1,6 +1,6 @@
-package chapter1.oop.shopping.other;
+package chapter1.shopping.other;
 
-import chapter1.oop.shopping.base.Goods;
+import chapter1.shopping.base.Goods;
 
 /**
  * 电池

@@ -1,6 +1,6 @@
-package chapter1.oop.shopping.vegetable;
+package chapter1.shopping.vegetable;
 
-import chapter1.oop.shopping.base.Food;
+import chapter1.shopping.base.Food;
 
 /**
  * 蔬菜

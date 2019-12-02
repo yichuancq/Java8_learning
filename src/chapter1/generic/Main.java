@@ -2,10 +2,10 @@ package chapter1.generic;
 
 import chapter1.generic.eat.Eat;
 import chapter1.generic.eat.EatFruit;
-import chapter1.oop.shopping.base.Goods;
-import chapter1.oop.shopping.fruit.Apple;
-import chapter1.oop.shopping.fruit.Banana;
-import chapter1.oop.shopping.fruit.Fruit;
+import chapter1.shopping.base.Goods;
+import chapter1.shopping.fruit.Apple;
+import chapter1.shopping.fruit.Banana;
+import chapter1.shopping.fruit.Fruit;
 
 public class Main {
 
@@ -50,7 +50,7 @@ public class Main {
         System.out.println(eatFruit.getSomething());
         //ok
         eatFruit.setSomething(fruit);
-        //Error:(48, 31) java: 不兼容的类型: chapter1.oop.shopping.base.Goods无法转换为shopping.fruit.Fruit
+        //Error:(48, 31) java: 不兼容的类型: chapter1.shopping.base.Goods无法转换为shopping.fruit.Fruit
 //        eatFruit.setSomething(goods);
         System.out.println(eatFruit.getSomething());
         //

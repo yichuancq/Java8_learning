@@ -1,4 +1,4 @@
-package chapter1.oop.shopping.meat;
+package chapter1.shopping.meat;
 
 public class Pork extends Meat {
     public Pork(String gnumber, String name, double price) {

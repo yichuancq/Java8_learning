@@ -1,9 +1,9 @@
 package chapter1.generic;
 
 import chapter1.generic.dealwith.DealWithFruit;
-import chapter1.oop.shopping.fruit.Apple;
-import chapter1.oop.shopping.fruit.Banana;
-import chapter1.oop.shopping.fruit.Fruit;
+import chapter1.shopping.fruit.Apple;
+import chapter1.shopping.fruit.Banana;
+import chapter1.shopping.fruit.Fruit;
 import org.junit.Test;
 
 public class TestFruit {

@@ -1,7 +1,7 @@
 package chapter1.generic.eat;
 
-import chapter1.oop.shopping.base.Goods;
-import chapter1.oop.shopping.fruit.Fruit;
+import chapter1.shopping.base.Goods;
+import chapter1.shopping.fruit.Fruit;
 
 /**
  * @param <T>

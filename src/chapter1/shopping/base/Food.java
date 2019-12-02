@@ -1,4 +1,4 @@
-package chapter1.oop.shopping.base;
+package chapter1.shopping.base;
 
 /**
  * 食品

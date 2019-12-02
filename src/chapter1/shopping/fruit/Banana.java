@@ -1,4 +1,4 @@
-package chapter1.oop.shopping.fruit;
+package chapter1.shopping.fruit;
 
 /**
  * 香蕉

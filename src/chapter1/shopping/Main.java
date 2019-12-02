@@ -1,11 +1,11 @@
-package chapter1.oop.shopping;
+package chapter1.shopping;
 
-import chapter1.oop.shopping.car.Order;
-import chapter1.oop.shopping.car.ShoppingCart;
-import chapter1.oop.shopping.fruit.Apple;
-import chapter1.oop.shopping.fruit.Banana;
-import chapter1.oop.shopping.fruit.Orange;
-import chapter1.oop.shopping.other.Battery;
+import chapter1.shopping.car.Order;
+import chapter1.shopping.car.ShoppingCart;
+import chapter1.shopping.fruit.Apple;
+import chapter1.shopping.fruit.Banana;
+import chapter1.shopping.fruit.Orange;
+import chapter1.shopping.other.Battery;
 
 public class Main {
 

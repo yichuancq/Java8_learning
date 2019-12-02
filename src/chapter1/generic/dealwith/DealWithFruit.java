@@ -1,6 +1,6 @@
 package chapter1.generic.dealwith;
 
-import chapter1.oop.shopping.fruit.Fruit;
+import chapter1.shopping.fruit.Fruit;
 
 public class DealWithFruit<T extends Fruit> implements IMethod<T> {
 

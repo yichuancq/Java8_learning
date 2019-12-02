@@ -1,6 +1,6 @@
 package chapter1.generic.dealwith;
 
-import chapter1.oop.shopping.fruit.Fruit;
+import chapter1.shopping.fruit.Fruit;
 
 /**
  * 一个范型接口
