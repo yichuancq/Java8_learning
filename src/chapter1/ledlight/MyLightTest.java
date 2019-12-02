@@ -5,10 +5,15 @@ import chapter1.ledlight.base.LightColorEnum;
 import chapter1.ledlight.control.LightAdjusterImpl;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MyLightTest {
 
     @Test
     public void TestLight() {
+
+        List list=new ArrayList();
 
         /***松下(Panasonic)led人体感应喂奶小夜灯**/
         MyLight myLight = new MyLight("HLT0237", "Panasonic", "松下(Panasonic)led人体感应喂奶小夜灯", false);
