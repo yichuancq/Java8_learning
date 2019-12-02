@@ -13,5 +13,4 @@ public interface ISwither<T extends Device> {
      */
     boolean sw(T t);
 
-
 }
