@@ -1,7 +1,7 @@
-package chapter1.device;
+package chapter1.tv;
 
-import chapter1.device.controller.LightRemoteControler;
-import chapter1.device.controller.TVRemoteController2;
+import chapter1.tv.controller.LightRemoteControler;
+import chapter1.tv.controller.TVRemoteController2;
 import org.junit.Test;
 
 public class TestMyController {
@@ -10,7 +10,7 @@ public class TestMyController {
     @Test
     public void fun() {
 
-        TV tv = new TV("TV", false);
+        TV tv = new TV("tv", false);
         boolean flag = false;
         //
         //TVRemoteController tvRemoteController = new TVRemoteController();

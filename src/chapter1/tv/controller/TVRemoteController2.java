@@ -1,6 +1,6 @@
-package chapter1.device.controller;
+package chapter1.tv.controller;
 
-import chapter1.device.Device;
+import chapter1.tv.Device;
 
 //op+enter ->import package
 //ctr+enter-> imp

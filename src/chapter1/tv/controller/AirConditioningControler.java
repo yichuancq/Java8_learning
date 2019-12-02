@@ -1,4 +1,4 @@
-package chapter1.device.controller;
+package chapter1.tv.controller;
 
 public class AirConditioningControler {
 }

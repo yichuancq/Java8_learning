@@ -1,6 +1,6 @@
-package chapter1.device.interf;
+package chapter1.tv.interf;
 
-import chapter1.device.Device;
+import chapter1.tv.Device;
 
 /**
  * 遥控器接口

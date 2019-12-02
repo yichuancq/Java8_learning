@@ -1,7 +1,7 @@
-package chapter1.device.controller;
+package chapter1.tv.controller;
 
-import chapter1.device.Device;
-import chapter1.device.interf.ICotroller;
+import chapter1.tv.Device;
+import chapter1.tv.interf.ICotroller;
 
 /**
  * 自定义抽象类

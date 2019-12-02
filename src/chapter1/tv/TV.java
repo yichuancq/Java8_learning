@@ -1,7 +1,7 @@
-package chapter1.device;
+package chapter1.tv;
 
-import chapter1.device.controller.TVRemoteController;
-import chapter1.device.controller.TVRemoteController2;
+import chapter1.tv.controller.TVRemoteController;
+import chapter1.tv.controller.TVRemoteController2;
 
 /**
  * 电视机设备

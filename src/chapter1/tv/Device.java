@@ -1,6 +1,6 @@
-package chapter1.device;
+package chapter1.tv;
 
-import chapter1.device.interf.ISwither;
+import chapter1.tv.interf.ISwither;
 
 import java.io.Serializable;
 
