@@ -3,13 +3,13 @@ package chapter1.ledlight.control;
 import chapter1.ledlight.base.BaseDevice;
 import chapter1.ledlight.base.ControlTypeEnum;
 import chapter1.ledlight.base.LightColorEnum;
-import chapter1.tv.Light;
 
 public abstract class AbstractAdjusterImpl<T extends BaseDevice> implements IAdjuster<T> {
     //控制类型
     private ControlTypeEnum controlTypeEnum;
     // 颜色
     private LightColorEnum lightColorEnum;
+    //默认档位
     private int degree = 0;
 
 
