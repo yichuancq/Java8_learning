@@ -19,7 +19,6 @@ public abstract class AbstractAdjusterImpl<T extends BaseDevice> implements IAdj
         System.out.println("控制方式:" + controlTypeEnum.toString());
     }
 
-
     /**
      * 调节亮度
      *
