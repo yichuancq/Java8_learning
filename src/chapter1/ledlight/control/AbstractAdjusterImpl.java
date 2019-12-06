@@ -3,12 +3,14 @@ package chapter1.ledlight.control;
 import chapter1.ledlight.base.BaseDevice;
 import chapter1.ledlight.base.ControlTypeEnum;
 import chapter1.ledlight.base.LightColorEnum;
+import chapter1.tv.Light;
 
 public abstract class AbstractAdjusterImpl<T extends BaseDevice> implements IAdjuster<T> {
     //控制类型
     private ControlTypeEnum controlTypeEnum;
     // 颜色
     private LightColorEnum lightColorEnum;
+    private int degree = 0;
 
 
     public AbstractAdjusterImpl(T t, ControlTypeEnum controlTypeEnum, LightColorEnum lightColorEnum) {
@@ -28,8 +30,10 @@ public abstract class AbstractAdjusterImpl<T extends BaseDevice> implements IAdj
      */
     @Override
     public int changeDegree(T t, Integer number) {
-
-        return new LightDegree(t, number).getDegree();
+        //
+        LightDegree lightDegree = new LightDegree(t, number, degree);
+        degree = lightDegree.getDegree();
+        return degree;
 
     }
 }

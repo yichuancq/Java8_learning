@@ -29,13 +29,17 @@ public class MyLightTest {
         lightAdjuster.changeDegree(myLight, 1);
         //加大档位
         lightAdjuster.changeDegree(myLight, 1);
+
+        //加大档位
+        lightAdjuster.changeDegree(myLight, 1);
+        //加大档位
+        lightAdjuster.changeDegree(myLight, 1);
+
         //加大档位
         lightAdjuster.changeDegree(myLight, 1);
         //减小档位
         lightAdjuster.changeDegree(myLight, -1);
 
-        lightAdjuster.changeDegree(myLight, -1);
-        lightAdjuster.changeDegree(myLight, -1);
         lightAdjuster.changeDegree(myLight, -1);
 
         /**小米人体感应喂奶小夜灯***/
