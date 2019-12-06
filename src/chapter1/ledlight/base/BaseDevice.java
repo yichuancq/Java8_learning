@@ -25,13 +25,12 @@ public class BaseDevice<T> implements Serializable, ISwither {
         //如果机器没有工作，则需要开机
         if (!this.isWorkingFlag()) {
             System.out.println("关机状态下执行开机。。。");
-            this.setWorkingFlag(!device.isWorkingFlag());
-            return true;
         } else {
             System.out.println("开机状态下执行关机。。。");
-            this.setWorkingFlag(!device.isWorkingFlag());
-            return true;
         }
+        this.setWorkingFlag(!device.isWorkingFlag());
+        return true;
+
     }
 
     //型号
