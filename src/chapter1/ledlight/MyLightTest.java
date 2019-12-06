@@ -1,20 +1,14 @@
 package chapter1.ledlight;
 
-import chapter1.ledlight.base.BaseDevice;
 import chapter1.ledlight.base.ControlTypeEnum;
 import chapter1.ledlight.base.LightColorEnum;
 import chapter1.ledlight.control.LightAdjusterImpl;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class MyLightTest {
 
     @Test
     public void TestLight() {
-
-        List list=new ArrayList();
 
         /***松下(Panasonic)led人体感应喂奶小夜灯**/
         MyLight myLight = new MyLight("HLT0237", "Panasonic", "松下(Panasonic)led人体感应喂奶小夜灯", false);
@@ -43,6 +37,7 @@ public class MyLightTest {
         lightAdjuster.changeDegree(myLight, -1);
         lightAdjuster.changeDegree(myLight, -1);
         lightAdjuster.changeDegree(myLight, -1);
+
         /**小米人体感应喂奶小夜灯***/
         MyLight myLight2 = new MyLight("HLT0238", "XiaoMi", "小米触摸喂奶小夜灯", false);
 
