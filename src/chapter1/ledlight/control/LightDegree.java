@@ -3,8 +3,8 @@ package chapter1.ledlight.control;
 import chapter1.ledlight.base.BaseDevice;
 
 public class LightDegree<T extends BaseDevice, E extends Integer> {
-    //
-    private int degree = 0;
+    //设置为静态变量
+    private static int degree = 0;
     private T device;
     private E number;
 
@@ -22,13 +22,14 @@ public class LightDegree<T extends BaseDevice, E extends Integer> {
      * @return
      */
     public int getDegree() {
+        this.degree += (int) number;
         if ((int) number > 0) {
             System.out.println("加大档位...");
         } else {
             System.out.println("减小档位...");
         }
         if (this.degree <= maxDegree && this.degree >= this.minDegree) {
-            System.out.println("name:" + device.getClass() + ",调节亮度...");
+            System.out.println("name:" + device.getName() + ",调节亮度...");
             System.out.println("degree:" + this.degree);
             return degree;
         }
